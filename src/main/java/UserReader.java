@@ -51,8 +51,4 @@ public class UserReader {
         return incorrectLetters.isEmpty();
     }
 
-    private static void something(){
-
-    }
-
 }
