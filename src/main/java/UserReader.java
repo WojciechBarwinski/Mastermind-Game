@@ -11,7 +11,7 @@ public class UserReader {
     public List<String> getInputFromUser() {
         System.out.println("Proszę wprowadzić swoją odpowiedz (konieczne 4 znaki!): ");
         String userInput = getInput();
-        return Arrays.asList(userInput.split(""));
+        return Arrays.asList(userInput.toUpperCase().split(""));
     }
 
 
