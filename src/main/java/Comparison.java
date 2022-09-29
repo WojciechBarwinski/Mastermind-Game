@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Comparison {
-    
+
     // - -> zła odpowiedz
     // x -> dobra odpowiedz ale w złym miejscu
     // + -> dobra odpowiedź w dobrym miejscu
