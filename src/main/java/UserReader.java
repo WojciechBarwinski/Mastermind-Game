@@ -9,7 +9,7 @@ public class UserReader {
 
 
     public List<String> getInputFromUser() {
-        System.out.println("Proszę wprowadzić swoją odpowiedz (konieczne 4 znaki!): ");
+        System.out.println("wprowadzić swoją odpowiedz (konieczne 4 znaki z wymienionych kolorów)");
         String userInput = getInput();
         return Arrays.asList(userInput.toUpperCase().split(""));
     }

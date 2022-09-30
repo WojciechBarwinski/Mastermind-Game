@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class UserInputValidator {
-    //zrobienie tego jakos automatycznie, lista 1 litery z kazdego enuma
+
     private static final List<String> LITERALS = new ArrayList<>(Arrays.asList("R", "G", "B", "Y", "G", "S", "O", "W"));
 
     @Getter

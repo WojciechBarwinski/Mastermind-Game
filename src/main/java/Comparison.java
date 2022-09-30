@@ -8,7 +8,6 @@ public class Comparison {
     // + -> dobra odpowiedź w dobrym miejscu
 
     public List<String> comparisonCode(List<String> gameCode, List<String> userCode){
-
         int bedColour = 0;
         int bedPlace = 0;
         int correctPlace = 0;
